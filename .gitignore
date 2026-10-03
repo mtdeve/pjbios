@@ -1,0 +1,75 @@
+# in prod
+# ---
+docs/
+boot_services/
+core/
+drivers/
+include/
+# ---
+
+bin/
+build/
+
+*.local.conf
+*.local.cfg
+
+.vscode/
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/settings.json
+# *.code-workspace
+
+
+.gdb_history
+.gdbinit
+JLinkLog.txt
+
+
+*.bin
+*.img
+*.o
+*.obj
+*.elf
+*.hex
+*.so
+*.dylib
+*.a
+*.lib
+*.exe
+
+
+# secrets
+.env
+.env.*
+*.env
+!.env.example
+
+*secrets*
+*credentials*
+
+*config.local.h
+*.inc.local
+
+*.pem
+*.key
+*.crt
+*.der
+*.pfx
+*.p12
+
+nvs_key.bin
+phy_init_data.bin
+flash_secrets.bin
+
+
+#build and toolchain
+Makefile.local
+CMakeUserData.cmake
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+local.properties
+sdkconfig.local
+.settings/
+
